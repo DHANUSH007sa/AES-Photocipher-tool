@@ -1,19 +1,11 @@
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+# Python virtual environment
 venv/
-ENV/
-.venv
-.idea/
-.vscode/
-*.swp
-*.swo
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Other unnecessary files
 .DS_Store
-dist/
-build/
-*.egg-info/
-.pytest_cache/
-.coverage
-htmlcov/
+*.log
+Thumbs.db
